@@ -11,3 +11,9 @@
 a. git add .\
 b. git commit -m "Add your message"\
 c. git push\
+
+#Cloning an LFS on Google Colab
+1. !apt-get update && apt-get upgrade\
+2. !apt-get install git-lfs\
+3. !git lfs clone https://github.com/AnupamaRajkumar/LandfillDataset.git
+
